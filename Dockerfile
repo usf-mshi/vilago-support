@@ -8,4 +8,6 @@ RUN curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key --keyri
 
 RUN apt-get update && apt-get -y install google-cloud-sdk
 
-RUN pip install pyedflib google-cloud-storage
+RUN pip install pyedflib
+RUN pip install google-cloud-storage
+RUN pip install click

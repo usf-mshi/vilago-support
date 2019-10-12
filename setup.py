@@ -5,7 +5,7 @@ setuptools.setup(
     author='Andrew Nguyen',
     author_email='andrew@na-consulting.net',
     name='vilago-support',
-    version='0.0.1-SNAPSHOT',
+    version='0.0.1',
     install_requires=['pyedflib', 'google-cloud-storage'],
     packages=setuptools.find_packages(),
 )
